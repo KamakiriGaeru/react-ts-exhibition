@@ -5,16 +5,17 @@ function ReduxPage() {
     return (
         <main className="redux">
             <Panel 
-                title="Reduxの流れ" 
+                title="state更新方法" 
                 description={[
-                    "①なにかしらのアクションが起こる",
-                    "②sliceがアクションを受け取る",
-                    "③sliceがstoreの中に状態を管理する",
-                    "④storeの中に状態が管理される",
-                    "⑤storeの中に状態が管理される",
-                    "⑥storeの中に状態が管理される",
-                    "⑦storeの中に状態が管理される",
-                    "⑧storeの中に状態が管理される",
+                    "①トリガーとなるアクションが起こる",
+                    "②dispatchでリデューサーを実行",
+                    "③stateが更新される",
+                ]}
+            />
+            <Panel 
+                title="state使用方法" 
+                description={[
+                    "①useSelectorでstateを取得",
                 ]}
             />
         </main>

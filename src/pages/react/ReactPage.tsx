@@ -6,11 +6,11 @@ function ReactPage() {
         <main className="react">
             <Panel 
                 title="Props" 
-                description={["Props are read-only parameters that are passed to a component."]}
+                description={["子コンポーネントを呼び出し時にデータを渡せる"]}
             />
             <Panel 
                 title="Hooks" 
-                description={["Hooks are functions that allow you to use state and other React features in functional components."]}
+                description={["useState", "useEffect", "など"]}
             />
             <Panel 
                 title="React Router" 
@@ -25,6 +25,7 @@ function ReactPage() {
             <Panel 
                 title="イベントハンドラ" 
                 description={[
+                    "各種タイミングをトリガーとした処理を実装できる",
                     "onClick",
                     "onKeyDown",
                     "onChange",

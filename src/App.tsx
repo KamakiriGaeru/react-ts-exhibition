@@ -9,11 +9,10 @@ import ReduxPage from "./pages/redux/ReduxPage.tsx";
 import TypescriptPage from "./pages/typescript/TypescriptPage.tsx";
 
 function App() {
-
   return (
     <Provider store={Store}>
       <Header />
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.BASE_URL}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/react" element={<ReactPage />} />

@@ -6,17 +6,17 @@ function Home() {
         <main className="home">
             <Panel 
                 title="React" 
-                description={["React is a JavaScript library for building user interfaces."]}
+                description={["UIを部品化して再利用したり部品間でデータのやりとりができるJavaScriptのライブラリ"]}
                 route="/react"
             />
             <Panel 
                 title="TypeScript" 
-                description={["TypeScript is a JavaScript library for building user interfaces."]}
+                description={["JavaScriptに型などを追加した言語"]}
                 route="/typescript"
             />
             <Panel 
                 title="Redux" 
-                description={["Redux is a JavaScript library for building user interfaces."]}
+                description={["状態管理ライブラリ"]}
                 route="/redux"
             />
         </main>
