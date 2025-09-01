@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    background-color: #a8843c;  
+    margin-top: 20px;
+
+    .header__title {
+        text-align: center;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+
+    }
+
+    .header__learnedPoint {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #99d851;
+        padding: 1%;
+        border-radius: 20px;
+        
+        .header__learnedPoint-title {
+            font-size: 1rem;
+            margin-bottom: 10%;
+        }
+
+        .header__learnedPoint-point {
+            background-color: #fff;
+            width: 80%;
+            text-align: center;
+        }
+    }
+}
